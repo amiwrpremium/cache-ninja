@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "cache-ninja"
+version = "0.1.0"
+description = "A versatile Python package designed to simplify caching operations"
+authors = ["Amir Mahdi Erfani <amiwrpremium@gmail.com>"]
+maintainers = ["Amir Mahdi Erfani <amiwrpremium@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/amiwrpremium/cache-ninja"
+repository = "https://github.com/amiwrpremium/cache-ninja.git"
+documentation = "https://cache-ninja.readthedocs.io/en/latest/"
+keywords = [
+    "caching",
+    "persistence",
+    "database",
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Database",
+    "Topic :: Cache",
+    "Topic :: Persistence",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+
+
+[tool.poetry.urls]
+"Code" = "https://github.com/amiwrpremium/cache-ninja"
+"Documentation" = "https://cache-ninja.readthedocs.io/en/latest/"
+"Issue Tracker" = "https://github.com/amiwrpremium/cache-ninja/issues"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
