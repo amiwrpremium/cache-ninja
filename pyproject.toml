@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cache-ninja"
-version = "0.1.0"
+version = "0.2.0"
 description = "A versatile Python package designed to simplify caching operations"
 authors = ["Amir Mahdi Erfani <amiwrpremium@gmail.com>"]
 maintainers = ["Amir Mahdi Erfani <amiwrpremium@gmail.com>"]
